@@ -1,0 +1,20 @@
+exercise6
+
+'foo' == 'Foo'
+evaluates to false
+reason is f > F 
+(lexigraphically, lower case are greater than uppercase)
+therefore expression cannot be true
+therefore expression is false. 
+
+Exercise 7 
+
+Return an error because it is an invalid literal.
+Would return 3 if it was a float in the parentheses
+
+Exercise 8
+
+'12' < '9' 
+
+Evaluates to true, because in first character of string, 9>1
+At that point python stops evaluating and returns a response
