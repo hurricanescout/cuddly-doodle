@@ -1,0 +1,50 @@
+
+**Variables**
+
+| variable           |                                                                                   |
+| ------------------ | --------------------------------------------------------------------------------- |
+| index              | idiomatic                                                                         |
+| CatName            | nonidiomatic - it's in camel case and should be snake no caps and with underscore |
+| lazy_dog           | idiomatic                                                                         |
+| quick_Fox          | nonidiomatic - F should not be capitalized                                        |
+| 1stCharacter       | illegal - cannot begin with a digit                                               |
+| operand2           | IDIOMATIC                                                                         |
+| BIG_NUMBER         | non-idiomatic, in screaming snake case, meant for constants                       |
+| pi as special char | illegal, not an ASCII character                                                   |
+
+Function names
+
+| variable name |                                        |
+| ------------- | -------------------------------------- |
+| index         | idiomatic                              |
+| CatName       | non-idiomatic, in camel case           |
+| lazy_dog      | idiomatic                              |
+| quick_fox     | idiomatic                              |
+| 1stCharacter  | illegal, cannot begin with digit       |
+| operand2      | idiomatic                              |
+| BIG_NUMBER    | non-idiomatic, in screaming snake case |
+| pi as special | illegal, not an ASCII character        |
+
+
+
+Class names 
+
+| index      | non-idiomatic. should begin upper case                                             |
+| ---------- | ---------------------------------------------------------------------------------- |
+| CatName    | idiomatic                                                                          |
+| Lazy_Dog   | non-idiomatic, shouldn't have underscore                                           |
+| 1ST        | **illegal** - begins with a number.                                                |
+| operand2   | non-idiomatic - should begin with upper case                                       |
+| BigNumber3 | idiomatic                                                                          |
+| pi i       | think may be illegal because of special character but not sure - correct not ASCII |
+Exercise 7
+Will greet Victor 3 times, then Nina 3 times. Because you've destroyed your coworkers trust and reassigned a constant. And Python doesn't support true constants. 
+
+Exercise 10 
+- obj = 'ABcd' reassigns
+- obj = list(obj) reassigns 
+- obj = tuple(obj) reassigns 
+- obj.pop() mutates
+- obj\[2\] = 'X' mutates
+- obj.sort() mutates 
+- just missed that obj= obj.lower() is a reassignment 
