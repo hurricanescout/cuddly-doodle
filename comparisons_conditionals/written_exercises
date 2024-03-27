@@ -1,0 +1,28 @@
+1. First
+	1. False or (True and False) 
+		1. False
+	2. True or (1 + 2) (remember it returns the last thing it evaluates)
+		1. 3
+	3. (1 + 2) or True 
+		1. 3
+	4. True and (1 + 2) 
+		1. 3 
+	5. False and (1 + 2)
+		1. False
+	6. (1 + 2) and True
+		1. True
+	7. (32 * 4) >= 129
+		1. false - yes looks like these return boolean
+	8. False != (not True)
+		1. False
+	9. True == 4
+		1. False
+	10. False == (847 == '847')
+		1. True (I got the right part right, that 847 doesn't equal the string 847. but then that returns false, so then the expression false == false should return true)
+3. returns Product2 and Product not found! 
+4. attempt to refactor:
+	1. if foo():
+		1. return 'bar'
+	2. else:
+		1. return qux()
+5. Empty
