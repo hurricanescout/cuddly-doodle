@@ -1,0 +1,21 @@
+1. len(people)
+2. 2 differences between lists and tuples, 2 ways lists and tuples are similar
+	1. similar: both are collections, both maintain their order, can contain collections or varying types of objects 
+	2. lists are mutable and tuples are immutable. Literals are different (eye-roll that this was an answer); lists have square brackets while tuples have parentheses 
+3. Why can we treat strings as sequences? 
+	1. Because it's also a collection of values we can iterate over, even though it doesn't contain individual objects? because we can perform similar operations on them? 
+		1. **close** because they are ordered and we can access them via indexing 
+4. set is different from sequences becuase sets contain unique values and are not ordered.
+	1. *as a result they don't support indexing*
+ 7. ranges 
+	 1. 0,1,2,3,4,5,6
+	 2. 1,2,3,4,5
+	 3. 3,7,11
+	 4. none 
+	 5. 8,7,6,5,4
+ 9. my_list
+	 1. my_list and another_list have the same values 
+	 2. Could be, I don't know - because it was passed through the ocnstructor, is it possible another_list points to my_list, which then points to the object itself? Need to learn more to know. 
+	 3. same values but not same object?want to say yes. 
+	 4. I don't think so
+ 10. It might, but if it does that has to do with python execution and it might not. One can't count on it printing in order when it is a set. 
