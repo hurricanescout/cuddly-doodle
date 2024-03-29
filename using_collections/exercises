@@ -1,0 +1,76 @@
+5. 
+	- 'cat' - ok, hashable
+	- tuple, ok, hashable
+	- **list, not ok,** 
+	- **dict, not ok** 
+	- range, ok
+	- **set, not ok,****
+	- **integer ok
+	- float ok
+	- frozen set ok 
+
+Exercise 6
+ `print('abc-def'.isalpha())
+ false 
+`print('abc_def'.isalpha())
+false
+``print('abc def'.isalpha())`
+false
+`print('abc def'.isalpha() and`
+`      'abc def'.isspace())`
+false
+`print('abc def'.isalpha() or`
+`      'abc def'.isspace())`
+false
+`print('abcdef'.isalpha())`
+true
+`print('31415'.isdigit())`
+true
+`print('-31415'.isdigit())`
+false
+`print('31_415'.isdigit())`
+false
+`print('3.1415'.isdigit())`
+false
+`print(''.isspace())`
+false
+
+Exercise 8 
+- because in the first one, extracts a slice,
+- in the second line, it's the occurance based on the beginning of the string itself 
+- Note that rfind is finding the first instance coming from the right 
+
+Exercise 11
+False
+True
+True
+False
+True
+False
+False
+True
+True
+True
+
+error: `print({1, 2, 3} in {1, 2, 3})`
+I said would return True, but is False 
+It is False because `in` with sets only checks if a specific value is in the set, it doesn't compare if two sets are equal. 
+
+Exercise 13
+```
+```cats = ('Cocoa', 'Cheddar', 'Pudding', 'Butterscotch')
+print('Butterscotch' in cats)
+print('Butter' in cats)
+print('Butter' in cats[3])
+print('cheddar' in cats)```
+```
+
+1. print the whole tuple
+2. True
+3. False
+4. True
+5. False
+
+Exercise 15
+dict_keys(\['Cat', 'Bird', 'Snake'\])
+
