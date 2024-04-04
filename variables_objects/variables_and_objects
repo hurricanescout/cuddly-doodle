@@ -1,0 +1,23 @@
+Variables and Objects Exercises
+
+1. The first expression wants to know if the two objects are 
+    the same type, length and value. The second expression wants
+    to know if they point to the same object in memory.
+
+2. Line 1 is a set, literal, which is mutable (know this because no
+    literal form of a frozen set). It contains a typle as an element.
+    Line 2 is a pointer to line in memory. therfore when you modify 
+    set1, set2 also gets changed. same goes if you were to modify set2. 
+    So the output should be {42, 'Monty Python' ('a', 'b', 'c'), range(5,10)}
+    in any order. 
+
+3. I want to say it will print 42, because we haven't just assigned 
+    another variable to the object in dict1. we've used the dict function.
+    We have created a new dictionary by using that function. 
+    NOTE: I was correct in the WHY. But I read the wrong line in the code
+    and chose the wrong value. Correct answer is The Life of Brian, but I
+    was wrong for dyslexic reasons, and not for anything to do with 
+    understanding how Python works. 
+
+4. [1, 42, 3] because the dict construct creates a shallow copy. the two
+    objects are not the same, but their (values?) are shared.
