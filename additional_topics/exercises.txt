@@ -1,0 +1,14 @@
+1. Return the dictionary with the keys sorted alphabetically and in all caps NO
+	1. Don't remember how the sorted function works. but it seems to be:
+		1. sorting the dictionary keys alphabetically
+		2. returning the key only at index 1 
+		3. set to all caps 
+2.>>> import math
+>>> print(math.sqrt(37))
+6.082762530298219
+>>> from math import sqrt
+>>> print(sqrt(37))
+6.082762530298219
+>>> import math as m
+>>> print(m.sqrt(37))
+6.082762530298219
